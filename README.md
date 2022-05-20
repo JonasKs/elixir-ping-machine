@@ -1,6 +1,7 @@
 # PingMachine
 
-**TODO: Add description**
+Please see the original repo and follow the tutorial at engineering.Intility.com
+https://github.com/Intility/blog-ping-machine
 
 ## Installation
 
