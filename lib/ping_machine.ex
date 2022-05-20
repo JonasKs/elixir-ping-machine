@@ -23,7 +23,7 @@ defmodule PingMachine do
   end
 
   def stop_ping(pid) when is_pid(pid) do
-    Logger.critical("Stopping PID #{pid}")
+    Logger.critical("Stopping PID #{inspect(pid)}")
     DynamicSupervisor.terminate_child(PingMachine.PingSupervisor, pid)
   end
 
